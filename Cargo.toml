@@ -1,0 +1,19 @@
+[package]
+name = "tilings"
+version = "0.1.0"
+authors = ["Moritz Moeller <virtualritz@gmail.com>"]
+edition = "2018"
+keywords = ["3d", "creative", "geometry", "graphics", "rendering"]
+categories = ["graphics", "mathematics", "multimedia", "rendering"]
+license = "MIT OR Apache-2.0 OR Zlib"
+description = "Regular- & semi-regular tilings of the plane."
+readme = "README.md"
+repository = "https://github.com/virtualritz/tilings/"
+documentation = "https://docs.rs/tilings/"
+
+[features]
+default = []
+obj = []
+
+[dependencies]
+ultraviolet = "0.7.5"
